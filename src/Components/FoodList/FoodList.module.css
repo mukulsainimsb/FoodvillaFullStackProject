@@ -1,0 +1,50 @@
+.box{
+    width: inherit;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    padding: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.card{
+    border-radius: 10px;
+    display: block;
+    width: 350px;
+    height: 200px;
+   display: flex;
+   padding: 5px;
+   background-color: rgba(0, 0, 0,.6);
+
+}
+.ibox{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.card p{
+    margin-top:30px;
+    color: white;
+    font-size:small;
+    height: 40px;
+}
+.card h1{
+    color: white;
+    margin-bottom:8px;
+    height: 45px;
+}
+.card button{
+    color: white;
+    background-color: tomato;
+    width: 80px;
+    align-self:flex-end;
+    position: relative;
+    top:20px
+}

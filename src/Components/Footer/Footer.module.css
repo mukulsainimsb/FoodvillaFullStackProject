@@ -1,0 +1,49 @@
+.mainbox{
+    display: flex;
+    flex-direction: column;
+}
+.midbox1{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1 h1{
+    color:rgb(255 87 51);
+    font-weight: 800;
+}
+.box1 ul{
+    color: white;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.box2 h1{
+    color:rgb(255 87 51);
+    font-weight: 800;
+}
+.location, .phone , .mail {
+    display: inline;
+    margin-bottom: 5px;
+    color: white;
+}
+.box2 p{
+    display: inline;
+    margin-left:5px;
+}
+.box3 h1{
+    color: rgb(255 87 51);
+    font-weight: 800;
+}
+.box3 h4{
+    color:white;
+}
+.logos{
+    font-size: 30px;
+    color: white;
+}
+.socialbox{
+    display: flex;
+    gap: 15px;
+}

@@ -1,0 +1,59 @@
+.box{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px black;
+}
+
+.heading h1{
+    color: white;
+    margin-bottom: 30px;
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+}
+p{
+    color: white;
+}
+.list ul{
+    display: flex;
+    list-style-type: none;
+    gap:200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.icon{
+    position: relative;
+    bottom:32px;
+    left:105px;
+    background-color:white;
+}
+.box input{
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    padding-right: 50px;
+    font-size: large;
+    border: 1px solid white;
+}
+.list li{
+    cursor: pointer;
+    border: 1px solid rgb(255 87 51);
+    padding: 10px;
+    color: white;
+    background-color:rgb(255 87 51);
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    margin-bottom: 30px;
+}
+.list li:hover{
+    box-shadow: 0px 0px 10px rgb(255, 87,51);
+}
+hr{
+ height: 3px;
+ background-color:rgb(255 87 51);
+}
